@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Godswill Digitals</title>
+    <meta
+      name="description"
+      content="Godswill Digitals builds scalable, high-performance web applications, from frontend design to backend logic."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&family=Syne:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
+  </head>
+  <body class="page-contact">
+    <header id="site-header">
+      <div class="scroll-progress" id="progress" aria-hidden="true"></div>
+      <nav aria-label="Main">
+        <button
+          class="nav-toggle"
+          id="nav-toggle"
+          aria-expanded="false"
+          aria-controls="nav-menu"
+          aria-label="Toggle menu"
+        >
+          <span></span><span></span><span></span>
+        </button>
+        <ul id="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="skills.html" class="nav-link">Skills</a></li>
+          <li><a href="services.html" class="nav-link">Services</a></li>
+          <li>
+            <a
+              href="contact.html"
+              class="nav-link nav-cta active"
+              aria-current="page"
+              >Contact me</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="subscribe" id="subscribe">
+        <h1>It's not about the code alone!</h1>
+        <p>
+          We also collaborate with clients to understand their unique goals,
+          ensuring that every solution is not just technically sound but aligned
+          with their vision. Whether it's developing full-scale applications or
+          refining existing systems, we bring clarity, creativity, and precision
+          to every project.
+        </p>
+        <h3>Subscribe to our newsletter for updates</h3>
+        <form action="#">
+          <label for="email-sub" class="visually-hidden">Email address</label>
+          <input
+            type="email"
+            name="email"
+            id="email-sub"
+            class="email-sub"
+            placeholder="you@example.com"
+            autocomplete="email"
+            required
+          />
+          <input
+            type="submit"
+            value="Subscribe"
+            id="submit-btn"
+            class="submit-btn"
+          />
+        </form>
+        <div class="social-icons">
+          <p>Join our community</p>
+          <div class="icons-wrapper">
+            <a href="#" aria-label="Discord"
+              ><img src="img/social-icons/discord.png" alt="" loading="lazy"
+            /></a>
+            <a href="#" aria-label="YouTube"
+              ><img src="img/social-icons/youtube.png" alt="" loading="lazy"
+            /></a>
+            <a href="#" aria-label="Twitter"
+              ><img src="img/social-icons/twitter.png" alt="" loading="lazy"
+            /></a>
+            <a href="#" aria-label="Instagram"
+              ><img src="img/social-icons/instagram.png" alt="" loading="lazy"
+            /></a>
+            <a href="#" aria-label="Facebook"
+              ><img src="img/social-icons/facebook.png" alt="" loading="lazy"
+            /></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>&copy; 2025 Godswill Digitals. All rights reserved.</footer>
+  </body>
+</html>
